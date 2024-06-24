@@ -1,0 +1,169 @@
+.footer-copytext a {
+    color: #ffffff;
+}
+#top-menu {
+    top: 149px;
+}
+.megamenu {
+    z-index: 3;
+}
+ul, li {
+    list-style-type: none;
+    margin-left: 0px;
+}
+.header-logo img {
+    height: 70px;
+}
+/* START THEME BOX4 */
+.product-box4 {
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
+    overflow: hidden;
+    border: 1px solid var(--bs-border-color)
+}
+
+.product-head-box4 {
+    display: flex;
+    border-bottom: 1px solid var(--bs-border-color);
+    padding: 13px;
+    background: #f5f5f5
+}
+
+.product-head-box4 img {
+    height: 40px
+}
+
+.product-head-box4 h4 {
+    width: calc(100% - 40px);
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0
+}
+
+.product-body-box4 {
+    border-bottom: 1px solid #e1ecf8;
+    padding: 15px;
+    min-height: 186px
+}
+
+.product-body-box4 p {
+    margin-bottom: -4px;
+    font-size: 14px
+}
+
+.product-body-box4 p i {
+    color: #558b2f;
+    margin-right: 3px;
+}
+
+.product-footer-box4 {
+    padding: 15px;
+    border-bottom: 1px solid #e1ecf8
+}
+
+.product-footer-box4 strong {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px
+}
+
+.product-footer-box4 img {
+    height: 20px
+}
+
+.border-end-box4 {
+    border-right: 1px solid #e1ecf8 !important
+}
+
+.product-buttons-box4 {
+    padding: 15px
+}
+
+.price-box4 {
+    text-align: right
+}
+
+.price-box4 strong {
+    font-size: 18px;
+    color: #f5b907;
+    margin: 0
+}
+.proce-box4-not-discount{
+    font-size: 18px;
+    color: #f5b907;
+    margin: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-box4 span {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #c2c2c2;
+    font-weight: 500
+}
+
+.buy-btn-box4 {
+    background: linear-gradient(135deg, var(--primary) 0, var(--primary1) 100%);
+    border: 0;
+    color: #fff !important;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.buy-btn-box4.disabled {
+    text-transform: uppercase; /* In hoa text*/
+    background: rgb(182, 179, 179); /* Màu nền xám */
+    color: #666; /* Màu chữ xám nhạt */
+    cursor: not-allowed; /* Con trỏ không cho phép */
+    pointer-events: none; /* Không sự kiện click */
+}
+
+.more-btn-box4 {
+    background: rgba(255, 255, 255, 0); /* Màu nền trong suốt */
+    border: 1px solid var(--primary); /* Viền màu */
+    color: var(--primary); /* Màu chữ */
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1); /* Đổ bóng */
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex; /* Sử dụng Flexbox */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển đổi màu */
+}
+/* END THEME BOX4 */
+
+.card-wallet-home {
+    top: 115px;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff; /* modal background color */
+    border-radius: 10px;
+}
+
+.modal-header {
+    padding: 15px;
+}
+.modal-footer {
+    padding: 0px;
+}
+
+/* Close button styles */
+.btn-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
